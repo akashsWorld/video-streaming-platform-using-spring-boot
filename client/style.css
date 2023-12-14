@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.root{
+    background-color: rgb(142, 136, 136);
+}
+.inputele{
+    height: 10vh;
+    background-color: rgb(63, 61, 61);
+}
+
+.canvas{
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+    width: 100vw;
+    background-color: rgb(175, 171, 171);
+    justify-content: space-evenly;
+    overflow: auto;
+}
+#video{
+    margin-top: 7vh;
+    background-color: black;
+    width: 65vw;
+    height:60vh ;
+    z-index: 10;
+    
+}
+#contents{
+    margin-top: 7vh;
+    height: auto;
+    background-color: azure;
+    width: 30vw;
+}
+
+#inputele{
+    display: flex;
+    justify-content: space-evenly;
+}
+#inpfile{
+    height: 4vh;
+    width: 10vw;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#inpfile:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#btn{
+    height: 4vh;
+    width: 10vw;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}

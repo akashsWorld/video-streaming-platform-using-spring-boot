@@ -1,0 +1,17 @@
+#upload a video->
+
+	http://localhost:8080/api/v1/upload
+
+#delete a video
+	
+	http://localhost:8080/api/v1/delete&id=64bfaba04d3e4b46a8de2adb
+
+#Get all videous
+
+	http://localhost:8080/api/v1/getallvideo
+
+#Delete all Videous
+
+	http://localhost:8080/api/v1/deleteallvideo
+
+	

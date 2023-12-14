@@ -1,0 +1,18 @@
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: mongostarter
+      password: passwor
+      database: post
+      host: mongodb
+      port: 27017
+      uri: mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.1
+      auto-index-creation: true #create Indexing based on given column.
+  servlet:
+    multipart:
+      max-file-size: 215MB
+      enabled: true
+      file-size-threshold: 2KB
+      max-request-size: 200MB
